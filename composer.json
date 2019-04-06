@@ -5,17 +5,21 @@
     "keywords": [
         "framework",
         "lcpswoole",
-        "ORM"
+        "async",
+        "swoole"
     ],
     "homepage": "http://lcpswoole.cn/",
     "license": "Apache-2.0",
     "authors": [
         {
             "name": "lcp",
-            "email": "lcp@gmail.com"
+            "email": "1169246310@qq.com"
         }
     ],
     "require": {
+        "php": ">=7.2.0",
+        "ext-swoole": ">=4.2.6",
+        "lcpswoole/framework":"v0.1.0"
     },
     "autoload": {
         "psr-4": {
